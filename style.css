@@ -1,0 +1,28 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: monospace;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    all:unset;
+    padding: 15px 35px;
+    font-size: 1rem;
+    background-color: blue;
+    color:#f1f1f1;
+
+  
+} 
+ button:hover{
+    box-shadow: 0 0 0 4px #fff,
+                 0 0 0 8px rgb(45, 45, 180);
+}
